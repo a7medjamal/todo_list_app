@@ -73,12 +73,73 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
+  assets:
+    - assets/fonts/Raleway-Black.ttf
+    - assets/fonts/Raleway-BlackItalic.ttf
+    - assets/fonts/Raleway-Bold.ttf
+    - assets/fonts/Raleway-BoldItalic.ttf
+    - assets/fonts/Raleway-ExtraBold.ttf
+    - assets/fonts/Raleway-ExtraBoldItalic.ttf
+    - assets/fonts/Raleway-ExtraLight.ttf
+    - assets/fonts/Raleway-ExtraLightItalic.ttf
+    - assets/fonts/Raleway-Italic.ttf
+    - assets/fonts/Raleway-Light.ttf
+    - assets/fonts/Raleway-LightItalic.ttf
+    - assets/fonts/Raleway-Medium.ttf
+    - assets/fonts/Raleway-MediumItalic.ttf
+    - assets/fonts/Raleway-Regular.ttf
+    - assets/fonts/Raleway-SemiBold.ttf
+    - assets/fonts/Raleway-SemiBoldItalic.ttf
+    - assets/fonts/Raleway-Thin.ttf
+    - assets/fonts/Raleway-ThinItalic.ttf
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway-Regular.ttf
+        - asset: assets/fonts/Raleway-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Raleway-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Raleway-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Raleway-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Raleway-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Raleway-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Raleway-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Raleway-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Raleway-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/Raleway-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Raleway-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/Raleway-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Raleway-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: assets/fonts/Raleway-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Raleway-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/Raleway-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Raleway-ThinItalic.ttf
+          weight: 100
+          style: italic
+
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
